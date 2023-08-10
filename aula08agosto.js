@@ -59,10 +59,10 @@
 
 // EXERCICIO 05
 
-let array = [1,2,3,4,5];
+// let array = [1,2,3,4,5];
 
-function imprimirLista(lista){
-    console.log(lista);
-}
+// function imprimirLista(lista){
+//     console.log(lista);
+// }
 
-imprimirLista(array);
+// imprimirLista(array);
