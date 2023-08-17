@@ -1,3 +1,4 @@
+//npm install readline-sync (NO TERMINAL)
 const readline = require('readline-sync'); // requerimento da biblioteca
 
 // Exercicio 01
