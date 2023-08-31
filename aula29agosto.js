@@ -110,8 +110,79 @@ const readline = require('readline-sync');
 
 // EXERCICIO 06
 
-// Uma empresa contrata um encanador a R$ 30,00 por dia. Crie um programa que
-// solicite o número de dias trabalhados pelo encanador e imprima a quantia líquida que
-// deverá ser paga, sabendo-se que são descontados 8% para pagamento de impostos e
-// taxas devidas.
+// const diaTrabalhados = readline.questionInt('Quantos dias foram trabalhados? ');
+// let total = (diaTrabalhados*30);
 
+// console.log(`O valor que deve ser pago é de R$${total-(total*0.08)}.`)
+
+// EXERCICIO 07
+
+// const horarioInicial = readline.questionInt('Qual o horário de ínicio? ');
+// const duracaoSegundos = readline.questionInt('Qual a duração em segundos? ');
+
+// if (duração)
+
+// EXERCICIO 08
+
+// const horaNormal = readline.questionInt('Quantas horas normais foram trabalhadas no ano? ');
+// const horaExtra = readline.questionInt('Quantas horas extras foram trabalhadas no ano? ');
+
+// console.log(`O salário anual é de R$${(horaNormal*10)+(horaExtra*15)},00.`)
+
+// EXERCICIO 09
+
+// const number1 = readline.questionInt('Insira o primeiro número: ');
+// const number2 = readline.questionInt('Insira o segundo número: ');
+// const number3 = readline.questionInt('Insira o terceiro número: ');
+
+// const array = [number1, number2, number3];
+// array.sort(function(a,b){
+//     if (a > b) return 1;
+//     if (a < b) return -1;
+//     return 0;
+// });
+
+// console.log(`A ordem crescente dos número digitados é : ${array}.`);
+
+// EXERCICIO 10
+
+// console.log('Lista de conversão:');
+// console.log('1. de Celsius para Fahrenheit.');
+// console.log('2. de Celsius para Kelvin.');
+// console.log('3. de Fahrenheit para Celsius.');
+// console.log('4. de Fahrenheit para Kelvin.');
+// console.log('5. de Kelvin para Celsius.');
+// console.log('6. de Kelvin para Fahrenheit.');
+
+// const opcao = readline.questionInt('Insira uma das opções acima: ');
+// const temp = readline.questionInt('Insira a temperatura: ');
+
+// switch(opcao){
+//     case 1:
+//         let cf = temp * (9/5) + 32;
+//         console.log(`A temperatura de ${temp} ºC é ${cf} ºF.`);
+//         break;
+//     case 2:
+//         let ck = temp + 273;
+//         console.log(`A temperatura de ${temp} ºC é ${ck} k.`);
+//         break;
+//     case 3:
+//         let fc = 5*(temp - 32) / 9;
+//         console.log(`A temperatura de ${temp} ºF é ${fc} ºC.`);
+//         break;
+//     case 4:
+//         let fk = (temp + 459,67) * 5/9;
+//         console.log(`A temperatura de ${temp} ºF é ${fk} k.`);
+//         break;
+//     case 5:
+//         let kc = temp - 273;
+//         console.log(`A temperatura de ${temp} k é ${kc} ºC.`);
+//         break;
+//     case 6:
+//         let kf = (temp - 273) * 9/5 + 32;
+//         console.log(`A temperatura de ${temp} k é ${kf} ºF.`);
+//         break;
+//     default:
+//         console.log('Você escolheu uma opção inválida.')
+//         break;
+// }
