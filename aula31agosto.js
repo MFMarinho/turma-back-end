@@ -2,10 +2,6 @@ const readline = require('readline-sync');
 
 // EXERCICIO 11
 
-// 11. Fazer uma função que recebe um mês e um ano como parâmetros e retorna o
-// número de dias daquele mês daquele ano. Dica: um ano é bissexto quando é múltiplo de
-// 4 e não múltiplo de 100, ou também quando é múltiplo de 400.
-
 // const ano = readline.questionInt('Insira o ano: ');
 // const mes = readline.question('Insira o nome do mês (tudo minúsculo): ');
 
